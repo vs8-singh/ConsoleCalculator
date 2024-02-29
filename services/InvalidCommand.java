@@ -1,6 +1,6 @@
-package implementations;
+package services;
 
-import interfaces.Command;
+import blueprints.Command;
 
 public class InvalidCommand implements Command {
 

@@ -1,10 +1,10 @@
-package implementations;
+package services;
 
-import interfaces.Command;
+import blueprints.Command;
 
 public class AddCommand implements Command {
     @Override
     public void execute(int num1, int num2) {
-        System.out.println("Answer : "+(num1+num2));
+        System.out.println("Answer : " + (num1 + num2));
     }
 }
